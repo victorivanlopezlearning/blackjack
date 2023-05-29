@@ -1,0 +1,31 @@
+html, body {
+  margin: 0;
+  background-color: #2F4F30;
+  color: white;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+.titulo {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#jugador-cartas,
+#computadora-cartas {
+  min-height: 250px;
+  margin-left: 70px;
+}
+
+.carta {
+  width: 150px;
+  margin-left: -75px;
+  margin-top: 20px;
+}
